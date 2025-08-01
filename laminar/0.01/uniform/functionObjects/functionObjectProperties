@@ -1,0 +1,155 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       dictionary;
+    location    "0.01/uniform/functionObjects";
+    object      functionObjectProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+fieldAverage0
+{
+    U
+    {
+        totalIter       20000000;
+        totalTime       0.008000000001884274;
+    }
+    p
+    {
+        totalIter       20000000;
+        totalTime       0.008000000001884274;
+    }
+    cSq
+    {
+        totalIter       20000000;
+        totalTime       0.008000000001884274;
+    }
+    T
+    {
+        totalIter       20000000;
+        totalTime       0.008000000001884274;
+    }
+    rho
+    {
+        totalIter       20000000;
+        totalTime       0.008000000001884274;
+    }
+    s
+    {
+        totalIter       20000000;
+        totalTime       0.008000000001884274;
+    }
+    L
+    {
+        totalIter       20000000;
+        totalTime       0.008000000001884274;
+    }
+}
+
+cutPlanes
+{
+    T
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/scalarField/T";
+    }
+    TMean
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/scalarField/TMean";
+    }
+    cSqMean
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/scalarField/cSqMean";
+    }
+    p
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/scalarField/p";
+    }
+    pMean
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/scalarField/pMean";
+    }
+    rho
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/scalarField/rho";
+    }
+    rhoMean
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/scalarField/rhoMean";
+    }
+    sMean
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/scalarField/sMean";
+    }
+    LMean
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/vectorField/LMean";
+    }
+    U
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/vectorField/U";
+    }
+    UMean
+    {
+        file            "<case>/postProcessing/cutPlanes/0.00515/zNormal/vectorField/UMean";
+    }
+}
+
+boundaryPlanes
+{
+    T
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/scalarField/T";
+    }
+    TMean
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/scalarField/TMean";
+    }
+    cSqMean
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/scalarField/cSqMean";
+    }
+    p
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/scalarField/p";
+    }
+    pMean
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/scalarField/pMean";
+    }
+    rho
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/scalarField/rho";
+    }
+    rhoMean
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/scalarField/rhoMean";
+    }
+    sMean
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/scalarField/sMean";
+    }
+    LMean
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/vectorField/LMean";
+    }
+    U
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/vectorField/U";
+    }
+    UMean
+    {
+        file            "<case>/postProcessing/boundaryPlanes/0.00515/freestream/vectorField/UMean";
+    }
+}
+
+
+// ************************************************************************* //
