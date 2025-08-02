@@ -14,7 +14,7 @@
             <I PROPERTY="GlobalSysSoln" VALUE="IterativeFull" />
         </SOLVERINFO>
         <PARAMETERS>
-            <P> TimeStep=7E-12 </P>
+            <P> TimeStep=5E-11 </P>
             <P> NumSteps=40000000 </P>
             <P> FinTime=TimeStep*NumSteps </P>
             <P> IO_CheckSteps=10000 </P>
@@ -68,7 +68,7 @@
     </CONDITIONS>
     <COUPLING NAME="cpl1" TYPE="Cwipi">
         <I PROPERTY="RemoteName" VALUE="cwipiFoam" />
-        <I PROPERTY="ReceiveSteps" VALUE="1" />
+        <I PROPERTY="ReceiveSteps" VALUE="8" />
         <I PROPERTY="ReceiveVariables" VALUE="F_0_p,F_0_u,F_0_v" />
         <I PROPERTY="NotLocMethod" VALUE="Keep" />
         <!--I PROPERTY="FilterWidth" VALUE="0.00000015" /!-->
