@@ -15,9 +15,9 @@
         </SOLVERINFO>
         <PARAMETERS>
             <P> TimeStep=5E-11 </P>
-            <P> NumSteps=40000000 </P>
+            <P> NumSteps=160000000 </P>
             <P> FinTime=TimeStep*NumSteps </P>
-            <P> IO_CheckSteps=10000 </P>
+            <P> IO_CheckSteps=200000 </P>
             <P> IO_CFLSteps=1 </P>
             <P> IO_InfoSteps=1 </P>
         </PARAMETERS>
