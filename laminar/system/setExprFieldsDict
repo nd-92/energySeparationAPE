@@ -31,8 +31,8 @@ variables_
         "s = 0.000075"
         "rO = 80"
         "spongeLength = 80"
-        "rO_source = 80"
-        "spongeLength_source = 80"
+        "rO_source = 70"
+        "spongeLength_source = 10"
     );
 }
 

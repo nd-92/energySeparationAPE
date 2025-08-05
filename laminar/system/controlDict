@@ -74,7 +74,8 @@ functions
     // #include "timeAverageFields"
     // #include "cutPlanes"
     // #include "boundarySurfaces"
-    #include "probes"
+    // #include "probes"
+    #include "forceCoefficients"
 }
 
 // ************************************************************************* //

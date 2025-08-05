@@ -1,2 +1,5 @@
 APE/BaseFlow/*.pts
 APE/Mesh.opt
+laminar/postProcessing
+laminar/0/Q
+laminar/0.01/Q
